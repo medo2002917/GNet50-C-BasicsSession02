@@ -70,6 +70,13 @@
                 Console.WriteLine("Invalid number");
             }
 
+            // Q09
+            {
+                int pages = 464;
+                string pagesAsString = pages.ToString();
+                Console.WriteLine(pagesAsString.GetType());
+            }
+
 
         }
     }
