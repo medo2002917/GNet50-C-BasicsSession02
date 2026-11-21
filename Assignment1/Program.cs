@@ -47,6 +47,12 @@
                 Console.WriteLine(doublePages);
             }
 
+            // Q06
+            double price = 49.99;
+            int priceAsInt = (int)price;
+            Console.WriteLine(priceAsInt);
+
+
         }
     }
 
