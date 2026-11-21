@@ -52,6 +52,11 @@
             int priceAsInt = (int)price;
             Console.WriteLine(priceAsInt);
 
+            // Q07
+            string pagesText = "464";
+            int convertedPages = Convert.ToInt32(pagesText);
+            Console.WriteLine(convertedPages);
+
 
         }
     }
