@@ -17,6 +17,12 @@
             Console.WriteLine(book.Equals(book));
             Console.WriteLine(book.GetHashCode());
             Console.WriteLine(book.GetType());
+
+            // Q03: Compile-time error, so we use a number instead of a string.
+            {
+                int pages = 464;
+                Console.WriteLine(pages);
+            }
         }
     }
 
