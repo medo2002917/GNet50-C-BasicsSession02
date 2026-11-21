@@ -77,6 +77,14 @@
                 Console.WriteLine(pagesAsString.GetType());
             }
 
+            // Q10
+            int copies = 100;
+            object boxedCopies = copies;
+            int unboxedCopies = (int)boxedCopies;
+
+            Console.WriteLine(boxedCopies);
+            Console.WriteLine(unboxedCopies);
+
 
         }
     }
