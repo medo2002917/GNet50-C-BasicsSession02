@@ -11,6 +11,12 @@
 
             object bookObject = book;
             Console.WriteLine(bookObject);
+
+            // Q02
+            Console.WriteLine(book.ToString());
+            Console.WriteLine(book.Equals(book));
+            Console.WriteLine(book.GetHashCode());
+            Console.WriteLine(book.GetType());
         }
     }
 
