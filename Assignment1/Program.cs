@@ -39,6 +39,14 @@
             {
                 Console.WriteLine("Done");
             }
+
+            // Q05
+            {
+                int pages = 300;
+                double doublePages = pages;
+                Console.WriteLine(doublePages);
+            }
+
         }
     }
 
