@@ -23,6 +23,22 @@
                 int pages = 464;
                 Console.WriteLine(pages);
             }
+
+            // Q04
+            try
+            {
+                int zero = 0;
+                int answer = 10 / zero;
+                Console.WriteLine(answer);
+            }
+            catch (DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
         }
     }
 
